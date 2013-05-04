@@ -1,0 +1,17 @@
+/*
+Theme Name:     Exprio Child
+Theme URI:      http://expr.io
+Description:    Child theme for the Foxy Theme
+Author:         Mario Noble
+Author URI:     http://contextmultimedia.com
+Template:       Foxy                            
+Version:        0.1.0
+*/
+
+@import url("../Foxy/style.css");
+
+.mytestClass {
+
+	color:#f90;
+
+}
