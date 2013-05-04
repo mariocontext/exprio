@@ -8,7 +8,7 @@
 
 			wp_register_script('mybuzz', $my_child_path.'/js/buzz.js', array(), '1.0.6', false);
 
-			//wp_register_script('myhelper', $my_child_path.'/js/helper.js', array(), '1.0', true);
+			wp_register_script('myhelper', $my_child_path.'/js/helper.js', array(), '1.0', true);
 
 			//wp_register_script('mystacktable', $my_child_path.'/js/stacktable.js', array('jquery'), '1.1', true);
 
@@ -18,7 +18,7 @@
 
 			wp_enqueue_script('mymodernizr');
 			wp_enqueue_script('mybuzz');
-			//wp_enqueue_script('myhelper');
+			wp_enqueue_script('myhelper');
 			//wp_enqueue_script('mystacktable');
 			//wp_enqueue_script('myfitvids');
 			//wp_enqueue_script('myscripts', 10);
